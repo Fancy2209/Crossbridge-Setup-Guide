@@ -16,22 +16,24 @@ Download the version of Crossbridge from the versions below.
 ## Dependecy Setup
 1. Download and extract the [Harman AIR SDK with New Compiler](https://airsdk.harman.com/download), and install [Java 8](https://www.java.com/download/)
 2. Search for "Edit System Variables" and click on the option that shows up
-3. 
+
 ![enter image description here](https://github.com/Fancy2209/Crossbridge-Setup-Guide/blob/main/System%20Variables.png?raw=true)
 
 
-
 4. Click on this button on the window that pops up
+5. 
 ![enter image description here](https://github.com/Fancy2209/Crossbridge-Setup-Guide/blob/main/Sys%20Vars.png?raw=true)
 
 
 
 6. Add a variable called JAVA_HOME and set it to ````C:\Program Files\Java\jre-1.8```, than add a variable called AIR_HOME and set it to where the folder with the AIR files are
+   
 ![enter image description here](https://github.com/Fancy2209/Crossbridge-Setup-Guide/blob/main/Sys%20Vars%204.png?raw=true)
 
 
 
 8. Add to your path the bin folders in the AIRSDK and JRE folders like below
+   
 ![enter image description here](https://github.com/Fancy2209/Crossbridge-Setup-Guide/blob/main/Sys%20Vars%203.png?raw=true)
 
 
