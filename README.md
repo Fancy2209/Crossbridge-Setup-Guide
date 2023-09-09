@@ -4,7 +4,7 @@
 A guide on how to setup the Crossbridge C/C++ Compiler for Adobe Flash Player on Windows
 
 ### While CrossBridge Community's fork technically works on Linux, I could not compile it and there is no binary distribution for the Linux version.
-### If you discover how to compile CrossBridge, or have any improvements on how to improve this guide, feel free to make a Issue or PR!
+### If you discover how to compile CrossBridge, or have any ideas on how to improve this guide or problems with it, feel free to make a Issue or PR!
 ## Crossbridge Versions
 Download the version of Crossbridge from the versions below.
 - **Crossbridge Community Fork** (*More updated Cygwin and SDK*)
@@ -45,6 +45,12 @@ To compile the samples:
 cd $FLEXSDK_ROOT/samples
 make FLASCC=$FLASCC_ROOT/sdk FLEX="$AIR_SDK"
 ```
+It is reccomended to bump the Java Heap Size Limit
+To do so run this command and re open run.bat
+```
+export _JAVA_OPTIONS="-Xms512m -Xmx4096m"
+echo export _JAVA_OPTIONS="-Xms512m -Xmx4096m" >> .bashrc
+```
 ## Crossbridge
 Download the file for Windows from [here](https://sourceforge.net/projects/crossbridge/files/Crossbridge_1.0.1.zip/download), extract it somewhere and open run.bat, a cygwin prompt should open
 To compile the Samples use the following commands:
@@ -54,5 +60,3 @@ make FLASCC=$FLASCC_ROOT/sdk FLEX="$AIR_SDK"
 ```
 It is reccomended to bump the Java Heap Size Limit
 To do so run this command and re open run.bat
-``echo export _JAVA_OPTIONS="-Xms512m -Xmx4096m" >> .bashrc``
-
