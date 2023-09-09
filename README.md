@@ -1,5 +1,6 @@
 # Crossbridge Setup Guide
 ![enter image description here](https://web.archive.org/web/20170418073110im_/https://crossbridge.io/design/crossbridge-170h.png)
+
 A guide on how to setup the Crossbridge C/C++ Compiler for Adobe Flash Player on Windows
 
 ### While CrossBridge Community's fork technically works on Linux, I could not compile it and there is no binary distribution for the Linux version.
