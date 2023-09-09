@@ -22,7 +22,7 @@ A guide on how to setup the Crossbridge C/C++ Compiler for Adobe Flash Player on
    
 ![enter image description here](https://github.com/Fancy2209/Crossbridge-Setup-Guide/blob/main/Sys%20Vars.png?raw=true)
 
-5. Add a variable called JAVA_HOME and set it to ````C:\Program Files\Java\jre-1.8```, than add a variable called AIR_HOME and set it to where the folder with the AIR files are
+5. Add a variable called JAVA_HOME and set it to ``C:\Program Files\Java\jre-1.8``, than add a variable called AIR_HOME and set it to where the folder with the AIR files are
    
 ![enter image description here](https://github.com/Fancy2209/Crossbridge-Setup-Guide/blob/main/Sys%20Vars%204.png?raw=true)
 
