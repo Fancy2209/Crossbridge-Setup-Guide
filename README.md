@@ -16,6 +16,7 @@ Download the version of Crossbridge from the versions below.
 ## Dependecy Setup
 1. Download and extract the [Harman AIR SDK with New Compiler](https://airsdk.harman.com/download), and install [Java 8](https://www.java.com/download/)
 2. Search for "Edit System Variables" and click on the option that shows up
+3. 
 ![enter image description here](https://github.com/Fancy2209/Crossbridge-Setup-Guide/blob/main/System%20Variables.png?raw=true)
 
 
