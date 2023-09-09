@@ -6,7 +6,6 @@ A guide on how to setup the Crossbridge C/C++ Compiler for Adobe Flash Player on
 ### While CrossBridge Community's fork technically works on Linux, I could not compile it and there is no binary distribution for the Linux version.
 ### If you discover how to compile CrossBridge, or have any ideas on how to improve this guide or problems with it, feel free to make a Issue or PR!
 ## Crossbridge Versions
-Download the version of Crossbridge from the versions below.
 - **Crossbridge Community Fork** (*More updated Cygwin and SDK*)
 - **Adobe Crossbridge** (*Less Updated SDK and Cygwin install but has CMake 3.x rather than CMake 2.x*)
 
