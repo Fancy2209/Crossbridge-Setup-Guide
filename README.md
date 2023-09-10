@@ -42,7 +42,7 @@ mkgroup  -l > /etc/group
 To compile the samples:
 ```
 cd $FLEXSDK_ROOT/samples
-make FLASCC=$FLASCC_ROOT/sdk FLEX="$AIR_SDK"
+make FLASCC=$FLASCC_ROOT/sdk FLEX="$AIR_HOME"
 ```
 It is reccomended to bump the Java Heap Size Limit
 To do so run this command and re open run.bat
@@ -55,7 +55,7 @@ Download the file for Windows from [here](https://sourceforge.net/projects/cross
 To compile the Samples use the following commands:
 ```
 cd $FLEXSDK_ROOT/samples
-make FLASCC=$FLASCC_ROOT/sdk FLEX="$AIR_SDK"
+make FLASCC=$FLASCC_ROOT/sdk FLEX="$AIR_HOME"
 ```
 It is reccomended to bump the Java Heap Size Limit
 To do so run this command and re open run.bat
