@@ -41,7 +41,7 @@ mkgroup  -l > /etc/group
 ```
 To compile the samples:
 ```
-cd $FLEXSDK_ROOT/samples
+cd $FLASCC_ROOT/samples
 make FLASCC=$FLASCC_ROOT/sdk FLEX="$AIR_HOME"
 ```
 It is reccomended to bump the Java Heap Size Limit
@@ -54,7 +54,7 @@ echo export _JAVA_OPTIONS="-Xms512m -Xmx4096m" >> .bashrc
 Download the file for Windows from [here](https://sourceforge.net/projects/crossbridge/files/Crossbridge_1.0.1.zip/download), extract it somewhere and open run.bat, a cygwin prompt should open
 To compile the Samples use the following commands:
 ```
-cd $FLEXSDK_ROOT/samples
+cd $FLASCC_ROOT/samples
 make FLASCC=$FLASCC_ROOT/sdk FLEX="$AIR_HOME"
 ```
 It is reccomended to bump the Java Heap Size Limit
