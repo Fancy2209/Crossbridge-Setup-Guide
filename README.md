@@ -32,9 +32,7 @@ A guide on how to setup the Crossbridge C/C++ Compiler for Adobe Flash Player on
 
 ## CrossBridge Community
 Download [CrossBridge Community](http://sourceforge.net/projects/crossbridge-community/files/15.0.0/CrossBridge_15.0.0.3.zip/download) and the [Cygwin Install](https://sourceforge.net/projects/crossbridge-community/files/cygwin-for-sdk-devs.zip/download)
-Extract CrossBridge Community, than extract this [patch](https://github.com/Fancy2209/Crossbridge-Setup-Guide/raw/main/CrossBridge_Patch.zip) into the folder you extracted it to, replacing files when asked to.
-Open run.bat
-Wait for Cygwin to install
+Extract CrossBridge Community, than extract this [patch](https://github.com/Fancy2209/Crossbridge-Setup-Guide/raw/main/CrossBridge_Patch.zip) into the folder you extracted it to, replacing files when asked to, than open run.bat and wait for Cygwin to install, when it finishes there should be a command prompt with a cygwin shell, if you can't find it just run run.bat again
 To compile the samples:
 ```
 cd $FLASCC_ROOT/samples
