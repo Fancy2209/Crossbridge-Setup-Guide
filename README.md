@@ -1,5 +1,5 @@
 # Crossbridge Setup Guide
-![enter image description here](https://web.archive.org/web/20170418073110im_/https://crossbridge.io/design/crossbridge-170h.png)
+![enter image description here](https://raw.githubusercontent.com/Fancy2209/fancy2209.github.io/main/crossbridge.io/design/crossbridge-170h.png)
 
 A guide on how to setup the Crossbridge C/C++ Compiler for Adobe Flash Player on Windows
 
