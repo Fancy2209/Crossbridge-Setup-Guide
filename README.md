@@ -25,15 +25,18 @@ A guide on how to setup the Crossbridge C/C++ Compiler for Adobe Flash Player on
 ![enter image description here](https://github.com/Fancy2209/Crossbridge-Setup-Guide/blob/main/Sys%20Vars%203.png?raw=true)
 
 ## CrossBridge Community
-Download [CrossBridge Community](http://sourceforge.net/projects/crossbridge-community/files/15.0.0/CrossBridge_15.0.0.3.zip/download) and the [Cygwin Install](https://sourceforge.net/projects/crossbridge-community/files/cygwin-for-sdk-devs.zip/download)
-Extract CrossBridge Community, than extract this [patch](https://github.com/Fancy2209/Crossbridge-Setup-Guide/raw/main/CrossBridge_Patch.zip) into the folder you extracted it to, replacing files when asked to, than open run.bat and wait for Cygwin to install, when it finishes there should be a command prompt with a cygwin shell, if you can't find it just run run.bat again
+1. Download [CrossBridge Community](http://sourceforge.net/projects/crossbridge-community/files/15.0.0/CrossBridge_15.0.0.3.zip/download) and the [Cygwin Install](https://sourceforge.net/projects/crossbridge-community/files/cygwin-for-sdk-devs.zip/download)
+2. Extract CrossBridge Community
+3. Rxtract this [patch](https://github.com/Fancy2209/Crossbridge-Setup-Guide/raw/main/CrossBridge_Patch.zip) into the folder you extracted CrossBridge to, replacing files when asked to
+4. Open run.bat and wait for Cygwin to install, when it finishes there should be a command prompt with a Cygwin shell, if you can't find it just run run.bat again
+**NOTE: You have to use the run.bat everytime you want to open the Cygwin Shell**
 To compile the samples:
 ```
 cd $FLASCC_ROOT/samples
 make FLASCC=$FLASCC_ROOT/sdk FLEX="$AIR_HOME"
 ```
 It is reccomended to bump the Java Heap Size Limit
-To do so run this command and re open run.bat
+To do so run this command and re-open the Cygwin shell
 ```
 export _JAVA_OPTIONS="-Xms512m -Xmx4096m"
 echo export _JAVA_OPTIONS="-Xms512m -Xmx4096m" >> .bashrc
