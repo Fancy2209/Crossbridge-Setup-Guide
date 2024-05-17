@@ -42,8 +42,8 @@ export _JAVA_OPTIONS="-Xms512m -Xmx4096m"
 echo export _JAVA_OPTIONS="-Xms512m -Xmx4096m" >> .bashrc
 ```
 
-#macOS 
+# macOS 
 The steps on https://fancy2209.github.io/crossbridge.io/README.html are mostly right, though some need changes:
-The download link for the DMG is https://sourceforge.net/projects/crossbridge-community/files/15.0.0/CrossBridge_15.0.0.3.dmg/download
-Before extracting or mounting it, run `xattr -d -r com.apple.quarantine CrossBridge_15.0.0.3.dmg` on it
-on the step that tells you to run this command: `PATH=~/crossbridge/sdk/usr/bin:$PATH make FLASCC=~/crossbridge/sdk FLEX=~/air_sdk`, run `PATH==$HOME/crossbridge/sdk/usr/bin:$PATH make FLASCC=$HOME/crossbridge/sdk FLEX=$HOME/air_sdk`, rember to set FLEX and FLASCC to the proper paths!
+- The download link for the DMG is https://sourceforge.net/projects/crossbridge-community/files/15.0.0/CrossBridge_15.0.0.3.dmg/download
+- Before extracting or mounting it, run `xattr -d -r com.apple.quarantine CrossBridge_15.0.0.3.dmg` on it
+- On the step that tells you to run this command: `PATH=~/crossbridge/sdk/usr/bin:$PATH make FLASCC=~/crossbridge/sdk FLEX=~/air_sdk`, you cannot use ~, and must use $HOME in it's place, like ``PATH=$HOME/crossbridge/sdk/usr/bin:$PATH make FLASCC=$HOME/crossbridge/sdk FLEX=$HOME/air_sdk``, rember to set FLEX and FLASCC to the proper paths!
