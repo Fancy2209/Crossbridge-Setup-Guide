@@ -5,7 +5,7 @@ A guide on how to setup the Crossbridge C/C++ Compiler for Adobe Flash Player on
 
 ### While CrossBridge Community's fork technically works on Linux, I could not compile it and there is no binary distribution for the Linux version.
 ### If you discover how to compile CrossBridge, or have any ideas on how to improve this guide or problems with it, feel free to make a Issue or PR!
-
+#Windows
 ## Dependecy Setup
 1. Download and extract the [Harman AIR SDK with New Compiler](https://airsdk.harman.com/download), and install [Java 8](https://www.java.com/download/)
 2. Search for "Edit the System Environment Variables" and click on the option that shows up
@@ -41,3 +41,9 @@ To do so run this command and re-open the Cygwin shell
 export _JAVA_OPTIONS="-Xms512m -Xmx4096m"
 echo export _JAVA_OPTIONS="-Xms512m -Xmx4096m" >> .bashrc
 ```
+
+#macOS 
+The steps on https://fancy2209.github.io/crossbridge.io/README.html are mostly right, though some need changes:
+The download link for the DMG is https://sourceforge.net/projects/crossbridge-community/files/15.0.0/CrossBridge_15.0.0.3.dmg/download
+Before extracting or mounting it, run `xattr -d -r com.apple.quarantine CrossBridge_15.0.0.3.dmg` on it
+on the step that tells you to run this command: `PATH=~/crossbridge/sdk/usr/bin:$PATH make FLASCC=~/crossbridge/sdk FLEX=~/air_sdk`, run `PATH==$HOME/crossbridge/sdk/usr/bin:$PATH make FLASCC=$HOME/crossbridge/sdk FLEX=$HOME/air_sdk`, rember to set FLEX and FLASCC to the proper paths!
